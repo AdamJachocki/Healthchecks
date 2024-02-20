@@ -1,0 +1,11 @@
+@WebApi_HostAddress = http://localhost:5110
+
+GET {{WebApi_HostAddress}}/_health/
+Accept: application/json
+
+###
+
+GET {{WebApi_HostAddress}}/_health_db/
+Accept: application/json
+
+###
